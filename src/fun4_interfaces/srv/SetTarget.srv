@@ -1,0 +1,4 @@
+bool give_me
+---
+geometry_msgs/Point random
+bool success
