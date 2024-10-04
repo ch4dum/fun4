@@ -87,7 +87,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 - L:   Decrease Y position
 - b:   Decrease Z position
 
-หมายเหตุ: สามารถเพิ่มลดความเร็วในแต่ละแกนตามการใช้งานปกติของ `teleop_twist_keyboard` แต่ไม่สามารถใช้งาน และเพิ่มลดความเร็วในส่วนของ angular speed ได้
+*หมายเหตุ: สามารถเพิ่มลดความเร็วในแต่ละแกนตามการใช้งานปกติของ `teleop_twist_keyboard` แต่ไม่สามารถใช้งาน และเพิ่มลดความเร็วในส่วนของ angular speed ได้
 
 #### Teleoperation ที่ Reference กับปลายมือ
 ในการใช้งานโหมด Teleoperation ที่ Reference กับปลายมือให้ใช้คำสั่ง service call ดังต่อไปนี้
@@ -131,4 +131,8 @@ ipk:
   y: 0.0
   z: 0.0"
 ```
+*หมายเหตุ: หาก `/target` และ `/end_effector` ไม่แสดงบน RViz สามารถกดเพิ่มได้ตามต้องการดังรูปด้านล่าง
+
+![Screenshot from 2024-10-04 13-36-03](https://github.com/user-attachments/assets/4eafdf22-103f-411b-b6c7-b22afa03d18b)
+
 
