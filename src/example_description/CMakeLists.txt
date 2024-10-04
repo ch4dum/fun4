@@ -30,7 +30,6 @@ install(PROGRAMS
   scripts/dummy_script.py
   scripts/jointstate_script.py
   scripts/random_target_node.py
-  scripts/tf2_frame_listener.py
   scripts/controller_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
