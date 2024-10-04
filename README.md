@@ -131,8 +131,9 @@ ipk:
   y: 0.0
   z: 0.0"
 ```
-*หมายเหตุ: หาก `/target` และ `/end_effector` ไม่แสดงบน RViz สามารถกดเพิ่มได้ตามต้องการดังรูปด้านล่าง
-
+*หมายเหตุ: 
+- หาก `/target` และ `/end_effector` ไม่แสดงบน RViz สามารถกดเพิ่มได้ตามต้องการดังรูปด้านล่าง
 ![Screenshot from 2024-10-04 13-36-03](https://github.com/user-attachments/assets/4eafdf22-103f-411b-b6c7-b22afa03d18b)
-
+- เนื่องจากไม่ได้แสดงการนับเวลาไว้ จึงสามารถดูได้จาก `[INFO]['time']` ที่แจ้งเตือนเมื่อมีการรับตำแหน่งจาก `random_target_node.py` และเมื่อถึงเป้าหมายจาก `jointstate_script.py` ในแต่ละรอบ ดังรูปด้านล่าง
+![Screenshot from 2024-10-04 13-41-31](https://github.com/user-attachments/assets/3c436c47-699c-4770-81c3-a429455eee97)
 
