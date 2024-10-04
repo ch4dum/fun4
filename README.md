@@ -41,7 +41,7 @@ ros2 topic list
 ![Screenshot from 2024-10-04 12-39-53](https://github.com/user-attachments/assets/ac666add-57e9-4f18-8c67-de896be3db9d)
 
 ## Part 2: Controller
-ให้ทำการ**ปิดหน้าต่าง** Figure 1 และ Joint State Publisher GUI เพื่อเริ่มการทำงานของ Part 2
+!!!ให้ทำการ**ปิดหน้าต่าง** Figure 1 และ Joint State Publisher GUI เพื่อเริ่มการทำงานของ Part 2
 ในการเลือกโหมดการทำงานจะสามารถทำได้โดยการใช้ service call
 เปิดหน้าต่าง Terminal ใหม่(หรือใช้หน้าต่างเดิมที่ตรวจสอบ Topic) และพิมพ์คำสั่ง:
 ```
